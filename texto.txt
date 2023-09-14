@@ -1,3 +1,4 @@
 Este es el primer texto que subo al directorio git,
  avanzado usando committ
 ahora viene lo chido
+Esta linea se agrega para seguir aprendiendo
