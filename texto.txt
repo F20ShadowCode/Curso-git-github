@@ -1,3 +1,3 @@
-Este es el primer texto normalito
-sin ningun committ
+Este es el primer texto que subo al directorio git,
+ avanzado usando committ
 ahora viene lo chido
