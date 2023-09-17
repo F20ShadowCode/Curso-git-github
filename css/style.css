@@ -48,9 +48,10 @@ body {
 .div-text {
   padding: 1em 2em;
 }
-p {
+.paragraph {
   width: 50%;
   margin: 1em 0;
+  color: black;
 }
 
 .btn-info {
