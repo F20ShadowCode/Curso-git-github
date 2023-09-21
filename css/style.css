@@ -9,6 +9,10 @@ body {
 }
 .cabecera {
   height: 6em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,14 +40,26 @@ body {
   padding-bottom: 3em;
 }
 
+.progresBar {
+  height: 0.7em;
+  width: 0%;
+  position: fixed;
+  top: 6em;
+  background-color: #86097c;
+  transition: width 0.3s ease-in-out;
+}
+
 .container {
   width: 60%;
-
   text-align: left;
   margin: 0 auto;
   border: 2px solid rgba(46, 184, 46, 0.2);
-  position: relative;
 }
+
+.first_container {
+  margin-top: 9em;
+}
+
 .container__div {
   display: flex;
   align-items: center;
