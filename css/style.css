@@ -90,7 +90,7 @@ body {
 }
 
 .footer {
-  color: blueviolet;
+  color: #ccc;
   position: relative;
   bottom: 0;
   left: 0;
@@ -101,5 +101,5 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #928e8e;
+  background-color: #15123dff;
 }
