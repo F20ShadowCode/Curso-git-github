@@ -9,22 +9,20 @@ body {
 }
 .cabecera {
   height: 6em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1em 5em;
-  background-color: #15123dff;
+  background-color: rgb(46, 184, 46);
   color: #fff;
-  margin-bottom: 6em;
 }
 
 .logo {
-  width: 130px;
-}
-
-.logoGit {
-  display: block;
-  width: 100%;
+  font-size: 3rem;
 }
 
 .item {
@@ -33,14 +31,35 @@ body {
   padding-left: 1em;
 }
 
+.container__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3em;
+
+  padding-bottom: 3em;
+}
+
+.progresBar {
+  height: 0.7em;
+  width: 0%;
+  position: fixed;
+  top: 6em;
+  background-color: #0b1f35;
+  transition: width 0.3s ease-in-out;
+}
+
 .container {
   width: 60%;
-
   text-align: left;
   margin: 0 auto;
   border: 2px solid rgba(46, 184, 46, 0.2);
-  position: relative;
 }
+
+.first_container {
+  margin-top: 9em;
+}
+
 .container__div {
   display: flex;
   align-items: center;
@@ -55,10 +74,10 @@ body {
 .div-text {
   padding: 1em 2em;
 }
-.parragraph {
+.paragraph {
   width: 50%;
   margin: 1em 0;
-  color: blueviolet;
+  color: black;
 }
 
 .btn-info {
@@ -68,4 +87,19 @@ body {
   padding: 0.9em 1.5em;
   border-radius: 0.6em;
   background-color: rgb(46, 184, 46);
+}
+
+.footer {
+  color: #ccc;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b1f35;
 }
