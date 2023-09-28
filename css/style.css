@@ -45,7 +45,7 @@ body {
   width: 0%;
   position: fixed;
   top: 6em;
-  background-color: #86097c;
+  background-color: #0b1f35;
   transition: width 0.3s ease-in-out;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .footer {
-  color: blueviolet;
+  color: #ccc;
   position: relative;
   bottom: 0;
   left: 0;
@@ -101,5 +101,5 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #928e8e;
+  background-color: #0b1f35;
 }
