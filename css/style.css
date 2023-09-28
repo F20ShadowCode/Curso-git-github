@@ -17,12 +17,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1em 5em;
-  background-color: rgb(46, 184, 46);
+  background-color: #15123dff;
   color: #fff;
 }
 
 .logo {
-  font-size: 3rem;
+  width: 130px;
+}
+.logoGit {
+  width: 100%;
+  display: block;
 }
 
 .item {
