@@ -13,13 +13,18 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1em 5em;
-  background-color: rgb(46, 184, 46);
+  background-color: #15123dff;
   color: #fff;
   margin-bottom: 6em;
 }
 
 .logo {
-  font-size: 3rem;
+  width: 130px;
+}
+
+.logoGit {
+  display: block;
+  width: 100%;
 }
 
 .item {
